@@ -321,7 +321,7 @@ const songs = [
  title: "Mera Yaar",
  artist: "Shankar-Ehsaan-Loy",
  file: "https://raw.githubusercontent.com/rawats7/vibeverse/main/mera_yaar.mp3",
- cover: "mera_yaar.jpg"
+ cover: "https://raw.githubusercontent.com/rawats7/vibeverse/main/mera_yaar.jpg"
 },
 {
  title: "With You",
@@ -533,6 +533,7 @@ function nextSong() {
     isPlaying = true;
     playPauseBtn.innerText = "⏸";
 }
+
 
 
 
